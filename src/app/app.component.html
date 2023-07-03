@@ -1,0 +1,12 @@
+<h1> Main Component </h1>
+
+
+<app-output-component (sommerStudent)="addStudent($event)"></app-output-component>
+
+<h2>Sommerstudenter</h2>
+
+<sub-component-1 
+  *ngFor="let sommerStudent of sommerStudenter" 
+  [sommerStudent]="sommerStudent"></sub-component-1> 
+
+

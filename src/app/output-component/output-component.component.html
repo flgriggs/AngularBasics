@@ -1,0 +1,19 @@
+<p>Name</p>
+<input (keyup)="onKeyName(name.value)" #name>
+<p>Email</p>
+<input (keyup)="onKeyEmail(email.value)" #email>
+<p>Phone</p>
+<input (keyup)="onKeyPhone(phone.value)" #phone>
+
+<button (click)="addNewStudent()">Send student</button>
+
+
+
+
+
+<p> {{nameStudent}}</p>
+<p> {{emailStudent}} </p>
+<p> {{phoneStudent}} </p>
+
+<hr>
+
